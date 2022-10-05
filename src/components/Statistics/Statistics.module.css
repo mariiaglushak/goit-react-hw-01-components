@@ -1,0 +1,40 @@
+.statistics{
+    display: block;
+    width: 398px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    background-color: rgb(182, 133, 144);
+}
+.statList{
+    display: flex;
+    padding: 0;
+    height: 75px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    border: 1px solid rgb(56, 71, 99);
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+.item:not(:last-child) {
+    border-right: 1px solid rgb(56, 71, 99);
+
+}
+.title{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.percentage{
+    font-size: 30px;
+}

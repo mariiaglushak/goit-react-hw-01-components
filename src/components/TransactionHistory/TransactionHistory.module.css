@@ -1,0 +1,30 @@
+.transactionHistory{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    text-align: center;
+}
+td{
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+       
+}
+th{
+    font-size: 20px;
+    font-weight: 600;
+}
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+tbody tr:nth-child(even) {
+    background-color: #747274;
+}
+thead{
+    height: 40px;
+    background-color: rgb(74, 74, 173);
+}
+.itemTitle{
+    text-transform: capitalize;
+}
