@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import css from "./FriendListItem.module.css";
 
 const FriendListItem = ({ avatar, name, isOnline, id }) => {
-    console.log(id)
+  
     return (
         <li className={css.item} key={id}>
            <span className={isOnline ? `${css.online}` : `${css.ofline}`}></span>

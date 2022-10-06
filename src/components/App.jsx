@@ -6,7 +6,6 @@ import transactions from "../json/transactions.json"
 import Profile from "./Profile/Profile";
 import Statistics from "./Statistics/Statistics";
 import FriendList from "./FriendList/FriendList";
-import FriendListItem from "./FriendList/FriendListItem";
 import TransactionHistory from "./TransactionHistory/TransactionHistory"
 
 export const App = () => {
@@ -25,7 +24,6 @@ export const App = () => {
       />
       <FriendList
         friends={friends}
-        func={FriendListItem}
       />
       <TransactionHistory
         items={transactions}
